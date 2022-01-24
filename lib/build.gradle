@@ -39,8 +39,8 @@ dependencies {
     // This dependency is exported to consumers, that is to say found on their compile classpath.
     api 'org.apache.commons:commons-math3:3.6.1'
 
-    implementation 'io.github.italbytz.ports:meal:0.1.1'
-    implementation 'io.github.italbytz.ports:common:0.1.1'
+    implementation 'io.github.italbytz.ports:meal:0.2.0'
+    implementation 'io.github.italbytz.ports:common:0.2.0'
 }
 
 apply plugin: 'maven'
@@ -66,7 +66,7 @@ signing {
 
 group = "io.github.italbytz.adapters.meal"
 archivesBaseName = "mock"
-version = "0.1.0"
+version = "0.2.0"
 
 uploadArchives {
     repositories {
